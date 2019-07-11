@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.theinterceptspokenedition" name="The Intercept Spoken Edition" version="1.1.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">The Intercept Spoken Edition podcast</summary>
+    <description lang="en">The Intercept [Spoken Edition] podcast, a brief daily roundup of the news.
+    </description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@protonmail.com</email>
+    <source>https://github.com/leopheard/plugin.audio.theinterceptspokenedition.git</source>
+    <website>https://theintercept.com/podcasts/</website>
+    <audio_guide></audio_guide>
+        	<assets>
+			<icon>resources/media/icon.jpeg</icon>
+			<fanart>resources/media/fanart.jpeg</fanart>
+			<screenshot>resources/media/3.gif</screenshot>
+			<screenshot>resources/media/2.jpeg</screenshot>
+			<screenshot>resources/media/1.jpeg</screenshot>
+		</assets>
+  </extension>
+</addon>
